@@ -37,29 +37,35 @@
   </template>
   
   <script>
-  export default {
-    data() {
-      return {
-        isNavOpen: false, 
-      };
-    },
-    methods: {
-      toggleMenu() {
-        this.isNavOpen = !this.isNavOpen;
-        const body = document.body;
-        if (this.isNavOpen) {
-          body.classList.add('blurred'); 
-        } else {
-          body.classList.remove('blurred'); 
-        }
-      },
-      navigateTo(route) {
-        this.$router.push(route);  
-        this.toggleMenu();  
+export default {
+  data() {
+    return {
+      isNavOpen: false,  
+    };
+  },
+  methods: {
+   
+    toggleMenu() {
+      this.isNavOpen = !this.isNavOpen;
+      const body = document.body;
+      if (this.isNavOpen) {
+        body.classList.add('blurred');  
+      } else {
+        body.classList.remove('blurred');
       }
+    },
+
+ 
+    navigateTo(route) {
+    
+      const baseRoute = process.env.BASE_URL || '';  
+      this.$router.push(`${baseRoute}${route}`);
+      this.toggleMenu();  
     }
-  };
-  </script>
+  }
+};
+</script>
+
   
   <style scoped>
   .navbar {

@@ -14,7 +14,7 @@
           <div class="recipe-info">
             <h3>{{ recipe.title }}</h3>
             <p class="recipe-summary">{{ recipe.summary }}</p>
-            <router-link :to="'/recipe/' + recipe.id" class="view-recipe-btn">View Recipe</router-link>
+            <button class="view-recipe-btn">View Recipe</button>
           </div>
         </div>
       </section>
@@ -31,62 +31,62 @@
             id: 1,
             title: "Spaghetti Bolognese",
             summary: "A classic Italian pasta dish with a rich and savory meat sauce.",
-            imagePath:  require("../assets/images/Spaghetti.jpg"),
+            imagePath: '/mtm6407-static-site-rama0113ac/images/Spaghetti.jpg',  
           },
           {
             id: 2,
             title: "Chicken Alfredo",
             summary: "Creamy and comforting, this dish is a favorite for pasta lovers.",
-            imagePath:  require("../assets/images/alfredo.jpg"),
+            imagePath: '/mtm6407-static-site-rama0113ac/images/alfredo.jpg',  
           },
           {
             id: 3,
             title: "Vegetable Stir-Fry",
             summary: "A healthy and colorful dish with a variety of vegetables stir-fried in a savory sauce.",
-            imagePath:  require("../assets/images/stirfry.jpg"),
+            imagePath: '/mtm6407-static-site-rama0113ac/images/stirfry.jpg',  
           },
           {
             id: 4,
             title: "Chocolate Cake",
             summary: "Rich, moist, and decadent chocolate cake with a creamy frosting.",
-            imagePath:  require("../assets/images/easy_chocolate.jpg"),
+            imagePath: '/mtm6407-static-site-rama0113ac/images/easy_chocolate.jpg',  
           },
           {
             id: 5,
             title: "Beef Tacos",
             summary: "Tasty beef tacos served with fresh toppings in a soft tortilla.",
-            imagePath:  require("../assets/images/Beef-Tacos.jpg"),
+            imagePath: '/mtm6407-static-site-rama0113ac/images/Beef-Tacos.jpg',  
           },
           {
             id: 6,
             title: "Salmon Salad",
             summary: "A fresh and healthy salad with grilled salmon, mixed greens, and a tangy dressing.",
-            imagePath:  require("../assets/images/Salmon-Salad.jpg"),
+            imagePath: '/mtm6407-static-site-rama0113ac/images/Salmon-Salad.jpg',  
           },
           {
             id: 7,
             title: "Chicken Caesar Salad",
             summary: "Crispy romaine lettuce topped with grilled chicken, croutons, and Caesar dressing.",
-            imagePath:  require("../assets/images/Caesar-Salad.jpg"),
+            imagePath: '/mtm6407-static-site-rama0113ac/images/Caesar-Salad.jpg',  
           },
           {
             id: 8,
             title: "Pancakes",
             summary: "Fluffy and light pancakes served with syrup, butter, and your favorite toppings.",
-            imagePath:  require("../assets/images/Pancakes.jpg"),
+            imagePath: '/mtm6407-static-site-rama0113ac/images/Pancakes.jpg',  
           },
           {
             id: 9,
             title: "Lamb Curry",
             summary: "A flavorful and aromatic curry with tender lamb cooked in a spiced gravy.",
-            imagePath:  require("../assets/images/lamb-curry.jpg"),
+            imagePath: '/mtm6407-static-site-rama0113ac/images/lamb-curry.jpg',  
           },
         ],
       };
     },
   };
-  </script>
-  
+</script>
+
   <style scoped>
 
   .recipes-page {

@@ -27,12 +27,26 @@
       },
     },
     data() {
-      return {
-        recipes: [
-          { title: "Spaghetti Bolognese", image: require("../assets/images/Spaghetti.jpg"), description: "A classic Italian dish." },
-          { title: "Chocolate Cake", image: require("../assets/images/easy_chocolate.jpg"), description: "Rich and moist dessert." },
-          { title: "Caesar Salad", image: require("../assets/images/Caesar-Salad.jpg"), description: "Crisp, fresh, and flavorful." }
-              ],
+  return {
+    recipes: [
+      {
+        title: "Spaghetti Bolognese",
+        image: '/mtm6407-static-site-rama0113ac/images/Spaghetti.jpg',  
+        description: "A classic Italian dish."
+      },
+      {
+        title: "Chocolate Cake",
+        image: '/mtm6407-static-site-rama0113ac/images/easy_chocolate.jpg',  
+        description: "Rich and moist dessert."
+      },
+      {
+        title: "Caesar Salad",
+        image: '/mtm6407-static-site-rama0113ac/images/Caesar-Salad.jpg',  
+        description: "Crisp, fresh, and flavorful."
+      }
+    ]
+
+
       };
     },
     computed: {

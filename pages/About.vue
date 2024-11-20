@@ -17,25 +17,27 @@
       </section>
 
       <section class="team">
-        <h3>Meet the Team</h3>
-        <div class="team-members">
-          <div class="team-member">
-            <img src="../assets/Images/CHEF-EMMA.jpg" alt="Chef Emma" />
-            <h4>Chef Emma</h4>
-            <p>Head Chef & Recipe Developer</p>
-          </div>
-          <div class="team-member">
-            <img src="../assets/Images/john.jpg" alt="Chef John" />
-            <h4>Chef John</h4>
-            <p>Assistant Chef & Food Stylist</p>
-          </div>
-          <div class="team-member">
-            <img src="../assets/Images/sarah.jpg" alt="Chef Sarah" />
-            <h4>Chef Ramanpreet</h4>
-            <p>Pastry Chef & Dessert Expert</p>
-          </div>
-        </div>
-      </section>
+  <h3>Meet the Team</h3>
+  <div class="team-members">
+    <div class="team-member">
+      <img src="/mtm6407-static-site-rama0113ac/images/CHEF-EMMA.jpg" alt="Chef Emma" />
+      <h4>Chef Emma</h4>
+      <p>Head Chef & Recipe Developer</p>
+    </div>
+    <div class="team-member">
+      <img src="/mtm6407-static-site-rama0113ac/images/john.jpg" alt="Chef John" />
+      <h4>Chef John</h4>
+      <p>Assistant Chef & Food Stylist</p>
+    </div>
+    <div class="team-member">
+      <img src="/mtm6407-static-site-rama0113ac/images/sarah.jpg" alt="Chef Sarah" />
+      <h4>Ramanpreet</h4>
+      <p>Pastry Chef & Dessert Expert</p>
+    </div>
+  </div>
+</section>
+
+
   
      
       <section class="contact">
